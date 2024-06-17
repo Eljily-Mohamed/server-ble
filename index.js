@@ -29,7 +29,7 @@ app.get('/temperatures', async (req, res) => {
         { type: 'temperature' },
         { type: 'temperature_color' }
       ]
-    }).sort({ timestamp: -1 }).limit(7);
+    }).sort({ timestamp: -1 }).limit(18);
 
     res.json(temperatureData);
   } catch (error) {
