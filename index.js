@@ -1,6 +1,6 @@
 const express = require('express');
 const mongoose = require('mongoose');
-const TemperatureData = require('./models/TemperatureData'); // Adjust the path as per your project structure
+const TemperatureData = require('./models/TemperatureData'); 
 const cors = require('cors');
 
 const app = express();
